@@ -1,0 +1,353 @@
+*{
+    font-family: 'CarosBold',sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(218, 241, 250);
+}
+nav #boldbi{
+   margin-left: 5%;
+   margin-right: 20%;
+}
+#menu div img{
+    padding-left: 20px;
+}
+#menu{
+    display: flex;
+}
+nav #menu{
+    margin-left: -50px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+#menu ul li{
+    padding:10px;
+    display: flex;
+}
+#menu ul li img{
+    transform: rotate(180deg);
+    height: 5px;
+    padding-left: 5px;
+    margin-top: 7px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menu ul li a:hover{
+    color: #ff6d34;
+}
+#mainpage
+{
+    background-color: rgb(218, 241, 250);
+}
+.wanttoConnect
+{
+    font-family:caros;
+    color: #3c4d6f;
+    font-size: 16px;
+    line-height: 24px;
+}
+#callSalesSupport
+{
+    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-left: 70px;
+    width: 20%;
+    line-height: 70px;
+    margin-right:28%;
+    float: left;
+}
+#salesEnquiry
+{
+    width: 60px;
+    height: 60px;
+}
+#supprotEnquire
+{
+    padding-top: 50px;
+    width: 60px;
+    height: 60px;
+}
+#supprotArrow
+{
+    text-decoration: none;
+}
+#supprotArrow:link
+{
+    color: #ff6d34;
+}
+#rightArrow
+{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#chatIconFixed
+{
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+}
+legend
+{
+    text-align: center;
+    font-size: 16px;
+    padding: 0 60px;
+}  
+/* Division for Form */
+#sendMessage
+{
+    padding-top: 80px;
+    line-height: 23px;
+    font-size: 14px;
+}
+#blockofFrom
+{
+   margin-right: 200px; 
+   border-color: whitesmoke;
+   background-color: white;
+   border-radius: 3px;
+   box-shadow: 0 0 10px rgb(58, 57, 57);
+   padding-top: 30px;
+   padding-right: 70px;
+   padding: -20px 0;
+   padding-bottom: 20px;
+}
+#heading-send-message
+{
+    text-align: center;
+}
+#message-Form
+{
+    padding-left: 55px;
+}
+#heading-send-message
+{
+    font-size: 28px;
+    font-weight: 500px;
+    display: block;
+}
+#userName,#emailId,#companyName,#phoneNumber,#message
+{
+    border: 1px solid #eeeeee;
+    width: 400px;
+    border-radius: 2px;
+    padding: 10px 0;
+}
+
+/* Submitte Button */
+
+#submiteMessageForm:hover
+{
+    color: rgb(255, 75, 0);
+    background-color: rgb(255, 241,239);
+}
+#submiteMessageForm
+{
+    align-content: center;
+    background-color: rgb(255, 75, 0);
+    width:400px;
+    height: 54px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 241,239);
+}
+.clear
+{
+    clear: both;
+}
+/* Office Location */
+#locationHeading
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500px;
+    display: block;
+    margin-bottom: 30px;
+}
+#officeLocation
+{
+    margin-top: 40px;
+}
+#hq-morrisville-v2
+{
+    margin-top: 20px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0 0 5px rgb(27, 27, 27);
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+#locationImaage
+{
+    width: 350px;
+}
+#eymard-complex-v2
+{
+    margin-top: 20px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0 0 5px rgb(27, 27, 27);
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin-right: 30px;
+}
+#karuna-conclave-v2
+{
+    margin-top: 20px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0 0 5px rgb(27, 27, 27);
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin-right: 50px;
+}
+#mathura-complex-v2
+{
+    margin-top: 50px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0 0 5px rgb(27, 27, 27);
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+#kenya-v2
+{
+    margin-top: 50px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0 0 5px rgb(27, 27, 27);
+    width: 350px;
+    float: left;
+    height: 500px;
+    
+    margin-right: 50px;
+}
+#companyTitle
+{
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 600;
+}
+#addressContent
+{
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+}
+#clear2
+{
+    clear: both;
+}
+#followus{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    color:#828893;
+}
+#followus h2{
+    display:flex;
+    margin-top: 0px;
+    padding-right: 20px;
+    
+}
+#followus img{
+    padding: -40px 5px;
+
+}
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+footer .logo{
+    margin-top: -250px;
+    margin-left: 70px;
+}
+footer .footersection{
+    display: flex;
+    
+}
+footer .footersection div{
+    padding: 20px;
+}
+footer .footersection #companyandaccount{
+    margin-right: 100px;
+}
+footer .footersection div ul{
+    list-style-type: none;
+}
+#follows ul{
+    display: flex;
+}
+footer .footersection h2{
+    color: #828893;
+    font-weight: 400;
+    font-size: 18px;
+}
+footer .footersection div ul li{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+#follows ul li img{
+    width: 30px;
+    padding: 5px;
+}
+.footersection a{
+    text-decoration: none;
+    color: black;
+}
+.footersection a:hover{
+    color: #ff6d34;
+}
+#uparrow{
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    border-radius: 60%;
+    align-items: center;
+    left: 95%;
+    top: 550px;
+    box-shadow: 1px 1px 4px #828893;
+}
+/************Copy Rights**********/
+#copyright a{
+    color: #ff6d34;
+    text-decoration: none;
+}
+#copyright p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#copyright p span{
+    color: #828893;
+}
